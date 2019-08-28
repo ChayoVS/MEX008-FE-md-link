@@ -1,10 +1,16 @@
-const mdLinks = require('../');
+const mdLinks = require('../index.js');
 
+// __tests__/index.test.js
+describe('initial', () => {
+  test('first tests', () => {
+    expect(true).toBe(true)
+  })
+})
 
-describe('mdLinks', () => {
+// describe('mdLinks', () => {
 
-  it('should...', () => {
-    console.log('FIX ME!');
-  });
+//   it('should...', () => {
+//     console.log('FIX ME!');
+//   });
 
-});
+// });
