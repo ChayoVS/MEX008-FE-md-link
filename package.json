@@ -1,5 +1,5 @@
 {
-  "name": "md-links-rosario",
+  "name": "md-links-finder",
   "version": "0.1.0",
   "devDependencies": {
     "jest": "^24.9.0"
@@ -22,10 +22,10 @@
     "\"library\"",
     "\"laboratoria\""
   ],
-  "author": "Rosario Vazquez",
+  "author": "Rosario Vazquez Salazar",
   "license": "ISC",
   "bin": {
-    "md-links-rosario": "cli.js"
+    "md-links-finder": "cli.js"
   }, 
   "bugs": {
     "url": "https://github.com/ChayoVS/MEX008-FE-md-link/issues"
