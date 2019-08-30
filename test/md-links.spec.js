@@ -17,3 +17,4 @@ describe('initial', () => {
 
 //comentario para probar pasar issue a completado
 // otro comentario
+//comentario para cerrar issue 
