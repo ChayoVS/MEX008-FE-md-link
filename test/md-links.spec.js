@@ -1,6 +1,15 @@
 const mdLinks = require('../index.js');
 
-// __tests__/index.test.js
+describe('mdLinks', () => {
+  it('should be a function', () => {
+      expect(typeof mdLinks).toBe('function');
+  });
+});
+
+
+
+
+// Test para configurar JEST
 describe('initial', () => {
   test('first tests', () => {
     expect(true).toBe(true)
@@ -14,7 +23,3 @@ describe('initial', () => {
 //   });
 
 // });
-
-//comentario para probar pasar issue a completado
-// otro comentario
-//comentario para cerrar issue 
