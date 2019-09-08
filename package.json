@@ -1,7 +1,10 @@
 {
-  "name": "md-links-finder",
+  "name": "md-links-finder-rvs",
   "version": "0.1.1",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
   },
   "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)\r * [4. Consideraciones generales](#4-consideraciones-generales)\r * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)\r * [6. Entregables](#6-entregables)\r * [7. Hacker edition](#7-hacker-edition)\r * [8. Evaluación](#8-evaluación)\r * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)\r * [10. Checklist](#10-checklist)",
@@ -9,24 +12,37 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "chalk": "^2.4.2",
+    "eslint": "^6.3.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "filehound": "^1.17.3",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.0"
+  },
   "scripts": {
-    "tests: coverage": "jest --coverage",
-    "tests": "jest",
-    "test": "\"tests\""
+    "test: coverage": "jest --coverage",
+    "test": "jest",
+    "eslint": "eslint --ext .js ./",
+    "pretest": "npm run eslint",
+    "build": "babel -d"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChayoVS/MEX008-FE-md-link.git"
+    "url": "https://github.com/ChayoVS/MEX008-FE-md-link.git"
   },
   "keywords": [
+    "node",
+    "npm",
+    "jest",
     "\"library\"",
     "\"laboratoria\""
   ],
   "author": "Rosario Vazquez Salazar",
   "license": "ISC",
   "bin": {
-    "md-links-finder": "cli.js"
+    "md-links-finder-rvs": "./index.js"
   },
   "bugs": {
     "url": "https://github.com/ChayoVS/MEX008-FE-md-link/issues"
