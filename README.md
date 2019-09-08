@@ -43,5 +43,3 @@ Es una librería que  a través de una ruta (definida por el usuario) detecte ar
 ## 9. Autora.
 
 Rosario Vazquez Salazar
-
-
