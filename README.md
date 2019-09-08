@@ -32,6 +32,11 @@ Es una librería que  a través de una ruta (definida por el usuario) detecte ar
 
 ## 3. Antes de empezar.
 
+![planeacion](./image/planeacion.png)
+![Diagrama de flujo](./image/Diagrama-md-links.jpeg)
+
+***
+
 ## 4. ¿Cómo instalar Md-links-finder? :inbox_tray:
 
 ## 5. ¿Cómo utilizar Md-links-finder? :grey_question:
