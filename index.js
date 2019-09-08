@@ -1,14 +1,14 @@
-// #!/usr/bin/env node
-// require('./md-links.js')()
+#!/usr/bin/env node
 
 const mdLinks = require('./md-links.js');
 const chalk = require('chalk');
 let path = process.argv[2]
-
 let options = {
   stats: false,
   validate: false,
 }
+const figlet = require('figlet');
+
 
 process.argv.forEach(element =>{
  if( element == "--stats"){
@@ -43,3 +43,24 @@ mdLinks.mdLinks(path,options).then(res=>{
   console.log(chalk.red(err.message))
 });
 
+
+
+const iniciar = () => {
+  console.log(chalk.keyword('darkorchid')(figlet.textSync('Md-links-finder-rvs', {
+          font: 'Stforek',
+          horizontalLayout: 'default',
+          verticalLayout: 'default'
+          })
+      )
+  );
+};
+
+const ejecutar = async () => {
+  //Mostrar la información de la librería en la cabecera, título con figlet
+  iniciar();
+
+  //Preguntas necesarias para validar archivo
+ 
+  
+};
+ejecutar();

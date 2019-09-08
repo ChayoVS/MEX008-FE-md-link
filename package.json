@@ -1,6 +1,6 @@
 {
   "name": "md-links-finder-rvs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -17,6 +17,7 @@
     "chalk": "^2.4.2",
     "eslint": "^6.3.0",
     "eslint-plugin-jest": "^22.17.0",
+    "figlet": "^1.2.4",
     "filehound": "^1.17.3",
     "marked": "^0.7.0",
     "node-fetch": "^2.6.0"
