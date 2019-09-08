@@ -1,8 +1,3 @@
-// module.exports = () => {
-//   console.log('Holiiii');
-// };
-
-
 const fs = require('fs');
 const marked = require('marked');
 const FileHound = require('filehound');
