@@ -3,18 +3,16 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Md-links-finder](#2-md-links-finder)
+* [2. Md-links-finder-rvs](#2-md-links-finder-rvs)
 * [3. Antes de empezar](#3-antes-de-empezar)
-* [4. ¿Cómo instalar Md-links-finder?](#4-¿cómo-instalar-md-links-finder?)
-* [5. ¿Cómo utilizar Md-links-finder?](#5-¿cómo-utilizar-md-links-finder?)
-* [6. Creación de la librería](#6-creación-de-la-librería)
-* [7. Herramientas utilizadas](#7-herramientas-utilizadas)
-* [8. Referencias](#8-referencias)
-* [9. Autora](#9-autora)
+* [4. ¿Cómo instalar Md-links-finder-rvs?](#4-¿cómo-instalar-md-links-finder-rvs?)
+* [5. ¿Cómo utilizar Md-links-finder-rvs?](#5-¿cómo-utilizar-md-links-finder-rvs?)
+* [6. Herramientas utilizadas](#6-herramientas-utilizadas)
+* [7. Autora](#7-autora)
 
 ***
 
-## 1. Preámbulo. 
+## 1. Preámbulo. :clipboard:
 
 Markdown es un lenguaje de marcado ligero que es muy utilizado por desarrolladores (developers), pretende facilitar la lectura al usuario, en el ámbito de programación se emplean para escribir documentos complementarios (cómo los README en Github) que proporcionan información adicional, una descripción del proyecto, instrucciones, entre otros.
 
@@ -22,7 +20,7 @@ Para ofrecer explicaciones más completas, en estos archivos se hace uso de mand
 
 ***
 
-## 2. Md-links-finder.
+## 2. Md-links-finder-rvs. :bulb:
 
 ![Imagen Md-links-finder-rvs](./image/Nombre-libreria.png)
 
@@ -30,7 +28,7 @@ Es una librería que  a través de una ruta (definida por el usuario) detecte ar
 
 ***
 
-## 3. Antes de empezar.
+## 3. Antes de empezar. :calendar:
 * Se definió un plan cada semana, para cubrir el total de los requerimientos.
 ![planeacion](./image/planeacion.png)
 
@@ -39,7 +37,9 @@ Es una librería que  a través de una ruta (definida por el usuario) detecte ar
 
 ***
 
-## 4. ¿Cómo instalar Md-links-finder? :inbox_tray:
+## 4. ¿Cómo instalar Md-links-finder-rvs? :inbox_tray:
+
+Tener instalado Nodejs.
 
 Instalar a través del comando de NPM:
 
@@ -47,7 +47,7 @@ Instalar a través del comando de NPM:
 
 ***
 
-## 5. ¿Cómo utilizar Md-links-finder? :grey_question:
+## 5. ¿Cómo utilizar Md-links-finder-rvs? :grey_question:
 
 * Utilizaremos siempre el comando `md-links-finder-rvs` seguido de la ruta que vayamos a leer, ejemplo:
 md-links-finder-rvs ./fileRead/info.md
@@ -56,15 +56,24 @@ md-links-finder-rvs ./fileRead/info.md
 
 ***
 
-## 6. Creación de la librería. :wrench:
+## 6. Herramientas utilizadas. :hammer:
 
+Se implementaron las siguientes librerías: 
+* Figlet.
+* Chalk. 
+* Marked
+* Filehound
+* Node-fetch
 
+Así cómo:
 
-## 7. Herramientas utilizadas. :hammer:
+* NPM
+* Nodejs
+* Github
+* Jest
 
-## 8. Referencias. :books:
+***
 
-
-## 9. Autora. :black_nib:
+## 7. Autora. :black_nib:
 
 Rosario Vazquez Salazar
