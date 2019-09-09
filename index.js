@@ -61,6 +61,5 @@ const ejecutar = async () => {
 
   //Preguntas necesarias para validar archivo
  
-  
 };
 ejecutar();

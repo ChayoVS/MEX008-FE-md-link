@@ -52,18 +52,18 @@ Instalar a través del comando de NPM:
 * Utilizaremos siempre el comando `md-links-finder-rvs` seguido de la ruta que vayamos a leer, ejemplo:
 md-links-finder-rvs ./fileRead/info.md
 
-* Dependiendo de lo que se requiera, se agrega a lo anterior las opciones: `--validate`, `--stats`, `--validate --stats`
+* Próxima versión disponible: dependiendo de lo que se requiera, se agrega a lo anterior las opciones: `--validate`, `--stats`, `--validate --stats`
 
 ***
 
 ## 6. Herramientas utilizadas. :hammer:
 
 Se implementaron las siguientes librerías: 
-* Figlet.
-* Chalk. 
-* Marked
-* Filehound
-* Node-fetch
+* Figlet Estilo para darle encabezado, o modificar librería.
+* Chalk Para darle color a los textos.
+* Marked A través de la función marked devuelve el contenido html.
+* Filehound Probando su funcionalidad.
+* Node-fetch Probando funcionalidad.
 
 Así cómo:
 
