@@ -31,21 +31,39 @@ Es una librería que  a través de una ruta (definida por el usuario) detecte ar
 ***
 
 ## 3. Antes de empezar.
-
+* Se definió un plan cada semana, para cubrir el total de los requerimientos.
 ![planeacion](./image/planeacion.png)
+
+* Para plantear mejor la solución al problema se definió el plan a seguir mediante un diagrama de flujo.
 ![Diagrama de flujo](./image/Diagrama-md-links.jpeg)
 
 ***
 
 ## 4. ¿Cómo instalar Md-links-finder? :inbox_tray:
 
+Instalar a través del comando de NPM:
+
+`npm i md-links-finder-rvs`
+
+***
+
 ## 5. ¿Cómo utilizar Md-links-finder? :grey_question:
 
+* Utilizaremos siempre el comando `md-links-finder-rvs` seguido de la ruta que vayamos a leer, ejemplo:
+md-links-finder-rvs ./fileRead/info.md
+
+* Dependiendo de lo que se requiera, se agrega a lo anterior las opciones: `--validate`, `--stats`, `--validate --stats`
+
+***
+
 ## 6. Creación de la librería. :wrench:
+
+
 
 ## 7. Herramientas utilizadas. :hammer:
 
 ## 8. Referencias. :books:
+
 
 ## 9. Autora. :black_nib:
 
