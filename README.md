@@ -52,7 +52,7 @@ Instalar a través del comando de NPM:
 * Utilizaremos siempre el comando `md-links-finder-rvs` seguido de la ruta que vayamos a leer, ejemplo:
 md-links-finder-rvs ./fileRead/info.md
 
-* Próxima versión disponible: dependiendo de lo que se requiera, se agrega a lo anterior las opciones: `--validate`, `--stats`, `--validate --stats`
+* Dependiendo de lo que se requiera, se agrega a lo anterior las opciones: `--validate`, `--stats`, `--validate --stats`
 
 ***
 
